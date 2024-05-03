@@ -6,7 +6,7 @@ using System;
 namespace WebApplication1
 {
     [PSerializable]
-    public class NlogTraceAttribute : OnMethodBoundaryAspect
+    public  class NlogTraceAttribute : OnMethodBoundaryAspect
     {
         public static Logger Logger = LogManager.GetCurrentClassLogger();
 

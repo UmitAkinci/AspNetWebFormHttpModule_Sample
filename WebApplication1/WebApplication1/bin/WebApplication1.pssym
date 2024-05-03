@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="99" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="2024.1.3.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[PostSharp]PostSharp.Serialization.PSerializableAttribute">
+    <Instance Declaration="#2=T:[WebApplication1]Abc.NlogTraceAttribute" Id="2b781d300008005">
+      <Target />
+    </Instance>
+  </Class>
+  <Class Class="#2">
+    <Instance Declaration="#3=T:[WebApplication1]WebApplication1.Contact" Id="2b781d300008006">
+      <Target Target="#4=M:[WebApplication1]WebApplication1.Contact::#ctor()" LinesAvoided="8">
+        <JoinPoint Description="#5=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
+      </Target>
+      <Target Target="#6=M:[WebApplication1]WebApplication1.Contact::Page_Load(System.Object, System.EventArgs)" LinesAvoided="8">
+        <JoinPoint Description="#5" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#7=M:[WebApplication1]Abc.NlogTraceAttribute::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#8=2" Description="#9=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#10=M:[WebApplication1]Abc.NlogTraceAttribute::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#8" Description="#9" />
+  <Annotation Target="#11=M:[WebApplication1]Abc.NlogTraceAttribute::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#8" Description="#9" />
+  <Annotation Target="#12=M:[WebApplication1]Abc.NlogTraceAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#8" Description="#9" />
+</Symbols>
